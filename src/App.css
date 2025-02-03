@@ -1,0 +1,90 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 ;
+  padding: 4rem;
+  width: 100%;
+  /* text-align: center; */
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.div1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.div1 img{
+  height: 250px;
+}
+.education{
+  display: grid;
+  grid-template-columns: 1fr 2fr ;
+}
+.skill{
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr) ;
+
+}
+.language{
+  display: grid;
+  list-style: none;
+  grid-template-columns: repeat(4 , 1fr) ;
+
+}
+li{
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  justify-content:space-evenly;
+}
+.pro{
+  width: 40%;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 20px;
+  
+}
+.pro div{
+  background-color: #888  ;
+  width: 50%;
+  height: 15px;
+  border-radius: 20px;
+
+
+
+
+}
